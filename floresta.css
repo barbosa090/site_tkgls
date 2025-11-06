@@ -73,7 +73,6 @@ span {
 }
 
 .t1 {
-
   display: flex;
   justify-content: center;
   margin-top: 200px;
@@ -84,4 +83,14 @@ span {
   margin-left: 50%;
   margin-right: 50%;
   margin-top: 4%;
+}
+
+.img1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 30vh;
+  height: 30vh;
+  margin-top: 140px;
+  margin-right: 1350px;
+  
 }
