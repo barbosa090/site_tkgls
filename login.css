@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
 header {
   background-color: #222;
   padding:0px;
@@ -54,15 +61,13 @@ a:hover {
   opacity: 0.7;
 }
 
-.tamanho {
-  height: 89.5vh;
-}
-
 .fundo {
-    background-image: url('Tokyo_Ghoul_re.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Tokyo_Ghoul_re.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 99.99vh;
+    margin-right: -1%;
     
 }
 
