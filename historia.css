@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-
+   overflow-x: hidden;
   
 }
 
@@ -23,7 +23,6 @@ main {
   margin-right: 0px;
   height: 89.5vh;
 }
-
 
 
 .principal {
