@@ -6,31 +6,13 @@
 
 body {
   font-family: Arial, sans-serif;
-   overflow-x: hidden;
-  
+  overflow-x: hidden;
+  background-color: rgb(9, 10, 10);
 }
 
 header {
-  background-color: #222;
   padding:0px;
   margin: -5px;
-}
-
-main {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("tokyo-ghoul.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-right: 0px;
-  height: 89.5vh;
-}
-
-
-.principal {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-  gap: 20px;
 }
 
 nav {
@@ -38,7 +20,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: #181616;
+  background: #070707;
   height: 10vh;
 
 }
@@ -75,56 +57,60 @@ a {
 
 a:hover {
   opacity: 0.7;
+  color: rgb(173, 12, 12);
 }
     
-.t1 {
-  white-space: nowrap;
-  display: flex;
-  justify-content: center;
-  margin-top: 200px;
-  font-size: 2rem;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-left: 50%;
-  margin-right: 50%;
-  margin-top: 13%;
-}
-  
-
-span {
-  color: rgb(238, 194, 50);
-}
-
-.t2 {
-  display: flex;
-  justify-content: center;
-  margin-top:-230px;
-  font-size: 1.2rem;
-  color: #ece5e5;
-  text-transform: uppercase;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
 
 span {
   color: rgb(173, 12, 12);
 }
 
-section {
+main {
   height: 130vh;
-  
+  background-color: #000000;
+}
+
+
+.t2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 260px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1.3rem;
+  color: #ece5e5;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .t3 {
   display: flex;
   justify-content: center;
-  font-size: 1.8rem;
-  color: rgb(173, 12, 12); 
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1.3rem;
+  color: #ece5e5;
   text-transform: uppercase;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.t3 h1{
-  margin-top: 130px;
+.ajustar1 {
+  padding-top: 65px;
+}
+
+.ajustar2 {
+  display: flex;
+  justify-content: center;
+}
+
+.ajustar3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.nexilia.it/mangaforever/2025/06/IMG_9510-scaled.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  background-color: #000000;
+  box-shadow: 0 0 10px rgba(116, 3, 3, 0.801);
+  height: 120vh;
+  width: 1200px;
 }
